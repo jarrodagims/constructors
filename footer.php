@@ -69,18 +69,5 @@
         </div>
 </section>
 <?php wp_footer(); ?>
-<script>
-    FB.api(
-        "/352272228167257/ratings",
-        function (response) {
-            if (response && !response.error) {
-                /* handle the result */
-                console.log('test');
-            } else {
-                console.log('no');
-            }
-        }
-    );
-</script>
 </body>
 </html>

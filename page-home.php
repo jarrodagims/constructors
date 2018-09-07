@@ -7,9 +7,11 @@
         <div class="container-fluid">
             <div class="row flex-row">
                 <div class="jumbotron">
-
                     <img src="<?= IMGURL ?>home-bg-sm.jpg" alt="Constructors, Inc." class="visible-xs" />
 
+                    <div class="jumbo-bg hidden-xs">
+
+                    </div>
 
                     <div class="jumbo-content waypoint active text-center">
                         <div class="fade-down"><h1><span class="title">A Construction Company</span>
@@ -156,10 +158,6 @@
                         <h2 class="card-title">
                             Government & Commercial
                         </h2>
-<!--                        <img src="--><?//= IMGURL ?><!--government-contractor.jpg" alt="" class="hidden-xs">-->
-<!---->
-<!--                        <img src="--><?//= IMGURL ?><!--government-commercial.jpg" alt="" class="visible-xs">-->
-
                         <div class="card-img">
 
                         </div>
@@ -179,8 +177,6 @@
                     <div class="card card-2">
                         <h2 class="card-title">Check out our Services
                         </h2>
-<!--                        <img src="--><?//= IMGURL ?><!--services.jpg" alt="" class="hidden-xs">-->
-<!--                        <img src="--><?//= IMGURL ?><!--services-sm.jpg" alt="" class="visible-xs">-->
                         <div class="card-img">
 
                         </div>
